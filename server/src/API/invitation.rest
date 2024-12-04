@@ -1,0 +1,18 @@
+### Enpoint pour ajouter une invitation
+POST http://localhost:3000/invitation
+Content-Type: application/json
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY1ZWFjYWFhN2Y3MzllY2YxNTM5ZDdiMSIsImVtYWlsIjoibWFydmluLm1vcmluQGluc3RpdHV0c29sYWNyb3VwLmNvbSIsIm5hbWUiOiJNYXJ2aW4gTW9yaW4iLCJ0ZWwiOiIwMTIzNDU2Nzg5IiwiaXNfYWRtaW4iOnRydWUsInJlc2VydmF0aW9ucyI6W10sIl9fdiI6MH0sImlhdCI6MTcxMDI1MzgzMX0.YaQUHbhrtx7BtitOyfIlSnrDe7h01vIprLEueIPFunY; Path=/; HttpOnly
+
+{
+  "email": "marvin.malouin@gmail.com",
+  "name" : "Marvin Morin",
+  "tel" : "06-12-98-09-32",
+  "message": "Rejoins-nous sur notre plateforme !"
+}
+
+
+
+
+
+### Enpoint pour supprimer toutes les invitations
+DELETE http://localhost:3000/invitation
